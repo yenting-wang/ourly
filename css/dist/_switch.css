@@ -1,0 +1,316 @@
+#switch {
+  position: relative;
+  height: 100dvh;
+  border: 5px solid red;
+}
+
+.newlife-man-1 {
+  position: absolute;
+  top: 15.88rem;
+  left: -0.06rem;
+  width: 38.13rem;
+  height: 26.75rem;
+  text-align: justify;
+  font-size: var(--font-size-base);
+  color: var(--color-tan-100);
+}
+
+.icon10 {
+  position: absolute;
+  top: 3.31rem;
+  left: 5.5rem;
+  width: 12.94rem;
+  height: 19.63rem;
+  object-fit: cover;
+}
+
+.div15 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 26.31rem;
+  height: 26.75rem;
+}
+
+.div16 {
+  position: absolute;
+  background-color: var(--bg-color);
+  filter: blur(13.5px);
+  top: 22.44rem;
+  left: 1.31rem;
+  width: 25rem;
+  height: 2.56rem;
+}
+
+.div17 {
+  position: absolute;
+  background-color: var(--bg-color);
+  filter: blur(13.5px);
+  width: 25rem;
+  height: 2.56rem;
+  top: 1.75rem;
+  left: 6.19rem;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+
+.div18 {
+  position: absolute;
+  background-color: var(--bg-color);
+  filter: blur(13.5px);
+  width: 25rem;
+  height: 2.56rem;
+  top: 1.38rem;
+  left: 0;
+}
+
+.div19 {
+  position: absolute;
+  top: 0;
+  left: 20.13rem;
+  background-color: var(--bg-color);
+  filter: blur(13.5px);
+  width: 25rem;
+  height: 2.56rem;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+
+.newlife-man-1-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  top: 2.75rem;
+  left: 19.13rem;
+  height: 8.44rem;
+  flex-direction: row;
+}
+
+.frame-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+
+.b18 {
+  position: relative;
+  line-height: 188.96%;
+}
+
+.b19 {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  color: var(--color-tan-200);
+  text-align: left;
+  width: 19rem;
+  height: 8.44rem;
+  flex-shrink: 0;
+}
+
+.newlife-woman {
+  position: absolute;
+  top: 12.88rem;
+  left: 76.56rem;
+  width: 45.56rem;
+  height: 26.75rem;
+  text-align: justify;
+  font-size: var(--font-size-base);
+  color: var(--color-tan-100);
+}
+
+.icon11 {
+  position: absolute;
+  top: 3.31rem;
+  left: 24.5rem;
+  width: 13.19rem;
+  height: 20.06rem;
+  object-fit: cover;
+}
+
+.div20 {
+  position: absolute;
+  top: 0;
+  left: 19.25rem;
+  width: 26.31rem;
+  height: 26.75rem;
+}
+
+.parent2 {
+  position: absolute;
+  top: 2.88rem;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0.94rem;
+}
+
+.web1 {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  color: var(--color-tan-200);
+  text-align: right;
+  width: 24rem;
+  height: 8.25rem;
+  flex-shrink: 0;
+}
+
+.icon12 {
+  position: absolute;
+  height: 23.06%;
+  width: 41.3%;
+  top: 67.41%;
+  right: 58.7%;
+  bottom: 9.53%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.icon13 {
+  position: absolute;
+  height: 19.2%;
+  width: 41.3%;
+  top: 48.24%;
+  right: -3.59%;
+  bottom: 32.56%;
+  left: 62.29%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.newlife-man-3 {
+  position: absolute;
+  top: 496.06rem;
+  left: 72.88rem;
+  width: 45.63rem;
+  height: 26.75rem;
+  text-align: justify;
+  font-size: var(--font-size-base);
+  color: var(--color-tan-100);
+}
+
+.icon14 {
+  position: absolute;
+  top: 3.63rem;
+  left: 24.75rem;
+  width: 12.88rem;
+  height: 19.63rem;
+  object-fit: cover;
+}
+
+.div25 {
+  top: 0;
+  left: 19.31rem;
+  width: 26.31rem;
+  height: 26.75rem;
+}
+
+.parent3 {
+  position: absolute;
+  top: 3.13rem;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+
+.b22 {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  color: var(--color-tan-200);
+  text-align: right;
+  width: 24rem;
+  height: 8.44rem;
+  flex-shrink: 0;
+}
+
+.newlife-man-2 {
+  position: absolute;
+  top: 499.06rem;
+  left: 12.88rem;
+  width: 38.13rem;
+  height: 26.75rem;
+  text-align: justify;
+  font-size: var(--font-size-base);
+  color: var(--color-tan-100);
+}
+
+.icon15 {
+  position: absolute;
+  top: 3.5rem;
+  left: 5.5rem;
+  width: 12.94rem;
+  height: 19.63rem;
+  object-fit: cover;
+}
+
+.wrapper {
+  position: absolute;
+  left: 19.13rem;
+  top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.b24 {
+  position: absolute;
+  left: 19.13rem;
+  top: 5.56rem;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  color: var(--color-tan-200);
+  text-align: left;
+  width: 19rem;
+  height: 8.38rem;
+}
+
+.switch {
+  position: absolute;
+  top: 426.06rem;
+  left: calc(50% - 990px);
+  background-color: #eee2d3;
+  filter: blur(100px);
+  width: 123.69rem;
+  height: 31.5rem;
+}
+
+.switch-to-a {
+  position: absolute;
+  display: inline-block;
+  top: 438.19rem;
+  left: calc(50% - 909px);
+  font-size: var(--font-size-171xl);
+  line-height: 120%;
+  color: var(--bg-color);
+  width: 113.63rem;
+  height: 14.25rem;
+  opacity: 0.7;
+}
+
+.div36 {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% + 794px);
+  left: calc(50% - 234px);
+  font-size: var(--font-size-17xl);
+  letter-spacing: 0.25em;
+  font-weight: 900;
+  text-align: center;
+  width: 29.19rem;
+  height: 5.88rem;
+  -webkit-text-stroke: 1.5px #dcc3a4;
+}

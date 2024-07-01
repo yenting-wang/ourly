@@ -1,0 +1,109 @@
+#ourVoice {
+    position: relative;
+    // height: 100dvh ;
+    // border: 5px solid blue;
+}
+[class$="-all-o"] {
+    opacity: 0;
+  }
+
+.title-o {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+
+.title-h2-o {
+    position: relative;
+    left: 37%;
+    top: 109px;
+    width: 50%; 
+    z-index: 1;
+}
+
+.flexbox-o {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left-all-o {
+    display: flex;
+    flex: 1 1 700px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-all-o {
+    display: flex;
+    flex: 1 1 700px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient-left-o, .gradient-right-o {
+    width: 75%;
+    background-color: transparent;
+}
+
+.pic-left-o, .pic-right-o {
+    width: 60%;
+}
+
+.phone-left-o, .computer-right-o {
+    width: 30%;
+    background-color: transparent;
+}
+
+.pic-left-o {
+    top: -20%;
+    position: relative;
+    background-color: transparent;
+}
+
+.gradient-left-o {
+    position: relative;
+    top: 20%;
+    left:5%
+}
+
+.phone-left-o {
+    position: relative;
+    top: -25%;
+    right:14%
+}
+
+.pic-right-o {
+    position: relative;
+    bottom: 0%;
+    background-color: transparent;
+    right: 10%;
+}
+
+.gradient-right-o {
+    position: relative;
+    top: 43%;
+    left: -4%;
+}
+
+.computer-right-o {
+    position: relative;
+    bottom: 10%;
+    right: -3%;
+}
+
+// PC version
+
+.title-phone-o, .title-phone-string-o {
+    display: none !important;
+}
+
+  .title-o {
+    display: block !important;
+}

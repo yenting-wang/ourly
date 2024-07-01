@@ -1,0 +1,294 @@
+
+
+
+
+//----------------- 開頭動畫 ---------------------------
+.fixed-button {
+  position: fixed;
+  right: -100px; /* 初始位置在左上角外面 */
+  top: 20px;
+  opacity: 1; /* 初始透明度为1 */
+  transition: opacity 1s ease-in-out; /* 添加透明度变化的动画效果 */
+  background-color: transparent;
+}
+
+.fixed-button img {
+  width: 70%;
+  background-color: transparent;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.fixed-button:hover img {
+  background-color: transparent; /* 保持透明背景 */
+  transform: translate(0, 0); /* 保持初始位置 */
+}
+
+.fixed-button:hover::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  width: 68%;
+  height: 92%;
+  background-image: url("../public/CTA-hover\ \(2\).png"); /* 悬停图像的 URL */
+  border: 0.5px solid #f7f2ec;
+  background-size: cover;
+  background-position: center;
+  z-index: 1; /* 确保悬停图像叠在原始图像上面 */
+  pointer-events: none;
+}
+
+.fixed-button:hover img {
+  opacity: 0; /* 在:hover状态下，隐藏原始图像 */
+}
+
+
+
+
+
+
+/* 滾動到一定位置後顯示按鈕 */
+.fixed-button.show {
+  right: -44px; /* 調整顯示的位置 */
+  opacity: 1; /* 透明度變為1 */
+  z-index: 999;
+  transition: right 0.5s ease, opacity 0.5s ease;
+} 
+
+//忘記了
+
+section.animation-wrapper {
+position: fixed;
+width: 100%;
+height: 100vh;
+background-color: #F7F2EC ;
+z-index: 1001;
+
+section.animation {
+  margin-top: 10vh;
+  height: 80vh;
+  // border: 5px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .hero {
+    // border: 5px solid green;
+    width: 100%;
+    height: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background-color: transparent;
+    }
+  }
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, rgb(63,64,102), rgb(63,64,102));
+  z-index: -1;
+}
+}
+
+// rgb(63,64,102)
+// rgb(255,68,72)
+
+
+
+
+// --------- hamburgermenu -------------------------
+
+
+
+
+/* ボタンの設定 */
+#hbg-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99;
+}
+  
+#hbg-btn {
+  height: 40px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  cursor: pointer;
+  position: fixed; 
+  margin-top: 20px;
+  margin-left:16px;
+  width: 30%;
+}
+
+.btn-line,
+.btn-line::before,
+.btn-line::after
+ {
+  content: "";
+  height: 1px;
+  width: 40px;
+  background-color: #f5f5f5;
+  position: absolute;
+  transition: all 0.5s 0s ease;
+  box-shadow:0px 1px 2px rgba(0,0,0,0.3);
+}
+
+.btn-line{
+  width: 0;
+  height: 0;
+}
+
+.btn-line::before {
+  top: 4px;
+}
+.btn-line {
+  display: block;
+}
+.btn-line::after {
+  bottom: 4px;
+}
+.btn-line-clicked::before {
+  top: 0;
+  transform: rotate(45deg);
+  background-color: #fff;
+}
+.btn-line-clicked {
+  background-color: rgba(255, 255, 255, 0);
+}
+.btn-line-clicked::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+  background-color: #fff;
+}
+/* メニュー本体の設定 */
+
+#hbg-menu-body-wrap {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: -110vw;
+}
+
+.hbg-menu-body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(182,189,201,0.5);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  right: -100vw;
+  visibility: hidden;
+  transition: 0.5s ease;
+  list-style: none;
+}
+.hbg-menu-body-clicked {
+  right: 0vw;
+  visibility: visible;
+  opacity: 1;
+}
+
+.hbg-menu-body-1 > li {
+  font-size: 20px;
+  text-shadow:0px 2px 1px rgba(145,145,145,0.3);
+  text-align: center;
+}
+.hbg-menu-body-1 > li:first-child {
+  border-top: 1px solid #fff;
+}
+.hbg-menu-body-1 > li > a {
+  color: #fff;
+  font-weight: 700;
+  padding: 20px 10px;
+  display: block;
+}
+#hbg-menu-body-innerUl {
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#hbg-menu-body-innerUl > li {
+padding-left: 10px;
+margin: 20px 10px 20px 0;
+height: 48px;
+}
+#hbg-menu-body-innerUl > li > a {
+width: 48px;
+height: 48px;
+background-color: #fff;
+display: flex;
+}
+#hbg-menu-body-innerUl > li > a > img {
+width: 38px;
+margin: 0 auto;
+}
+
+.changecolor::after{
+background-color: #E8D8C4;
+}
+.changecolor::before{
+background-color: #E8D8C4;
+}
+
+.changetextcolor{
+  color: #E8D8C4;
+}
+
+
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+.pc { display: none !important; }
+.sp { display: block !important; }
+
+/* #pc-list{
+  display: none !important;}   */
+
+  #pc-list {
+    position: absolute;
+    z-index: 99;
+    font-size: 16px;
+    color: #A1A1A1;
+    // color: #EAA294;
+    background-color: transparent;
+    // text-shadow:0px 2px 1px rgba(145,145,145,0.3);
+    left: 58%;
+    margin-top: 2.3%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    li {
+    background-color: transparent;
+    a {
+        transition: all 0.5s ease-in-out;
+        &:hover {
+        color: #EAA294;
+          // text-decoration: underline dotted;
+        padding-bottom: 5px;
+        border-bottom: 3px dotted  #EAA294;
+        transition: all 0.5s ease;
+        }
+    }
+    }
+}
+
+.pc { display: block !important; }
+.sp { display: none !important; }
+
+#hbg-btn{
+display: none !important;} 
+
+html {
+  scroll-behavior: smooth;
+}

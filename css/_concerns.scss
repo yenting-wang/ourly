@@ -1,0 +1,109 @@
+#concerns {
+  position: relative;
+  height: 100dvh;
+  // border: 5px solid green;
+}
+[class^="dialogue-c-"] {
+  opacity: 0;
+}
+
+.gradient-c {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+}
+
+.title-c-bg {
+  width: 51%;
+  padding-left: 5%;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  background-color: transparent;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: Noto Sans JP;
+  font-weight: bold;
+  position: absolute;
+  top: 28%;
+  left: 15.5%;
+  color: #605F5E;
+  background-color: transparent;
+}
+
+.title-c-line {
+  position: absolute;
+  top: 32.5%;
+  left: 15%;
+  width: 23%;
+  background-color: transparent;
+}
+
+.person-c {
+  position: absolute;
+  bottom: 6%;
+  right: 15%;
+  width: 13%;
+  background-color: transparent;
+}
+
+
+.dialogue-c-1, .dialogue-c-2, .dialogue-c-3, .dialogue-c-4, .dialogue-c-5 {
+  position: absolute;
+  background-color: transparent;
+}
+
+.dialogue-c-1 {
+width: 8%;
+  left: 55%;
+  bottom: 13%;
+}
+
+.dialogue-c-2 {
+  width: 8%;
+  left: 53%;
+  bottom: 42%;
+}
+
+.dialogue-c-3 {
+  width: 9%;
+  left: 64%;
+  bottom: 30%;
+}
+
+.dialogue-c-4 {
+  width: 7.5%;
+  left: 80%;
+  bottom: 45%;
+}
+
+.dialogue-c-5 {
+  width: 8%;
+  left: 87%;
+  bottom: 23%;
+}
+
+.string-c {
+  pointer-events: none;
+  position: absolute;
+  width: 62%;
+  height: 100%;
+  top: 58.3%;
+  left: 19.7%;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.string-c-cover {
+  // background-color: red;
+  background-color: #f7f2ec;
+  position: absolute;
+  width: 100%;
+  height: 34%;
+  z-index: 1;
+  top: 91%;
+  right: 0%;
+  transform-origin: bottom center;
+}

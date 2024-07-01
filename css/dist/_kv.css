@@ -1,0 +1,93 @@
+#kv {
+  position: relative;
+  height: 80dvh;
+  border: 5px solid aqua;
+  display: flex;
+  overflow: hidden;
+}
+
+.kv-left {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  position: relative;
+  background-color: #f7f2ec;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.kv-left::after {
+  content: "";
+  position: absolute;
+  top: -102px;
+  right: -25%;
+  background-color: #f7f2ec;
+  border-radius: 50%;
+  width: 60%;
+  height: 60%;
+  z-index: 5;
+}
+
+.kv-right {
+  width: 70%;
+  position: relative;
+  z-index: 0;
+}
+.kv-right video {
+  width: 100%;
+  height: 100%;
+}
+
+.kv-video {
+  position: relative;
+  z-index: 0;
+}
+
+.kv1 {
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: auto;
+}
+
+.ourly-logo-icon1 {
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  width: 9.38rem;
+  height: 1.88rem;
+  object-fit: cover;
+  background-color: transparent;
+}
+
+.kv-left-all {
+  position: absolute;
+  top: 13.5rem;
+  left: 5.5rem;
+  width: 35.94rem;
+  height: 27.13rem;
+  z-index: 6;
+}
+
+.b27 {
+  position: absolute;
+  top: 4.25rem;
+  left: 0;
+  font-size: var(--font-size-45xl);
+  line-height: 120%;
+}
+
+.span {
+  color: var(--stroke-g);
+}
+
+.span1 {
+  color: var(--new-dailogue);
+}
+
+.p2 {
+  margin-block-start: 0;
+  margin-block-end: 8px;
+}

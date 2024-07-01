@@ -1,0 +1,60 @@
+* {
+  /* width: 100dvw; */
+  margin: 0;
+  padding: 0;
+  /* line-height: normal; */
+  background-color: #f7f2ec;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* box-sizing: border-box; */
+}/*# sourceMappingURL=global.css.map */
+
+:root {
+  /* fonts */
+  --font-noto-sans-jp: "Noto Sans JP";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-xl: 1.25rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-base: 1rem;
+  --font-size-181xl: 12.5rem;
+  --font-size-lg: 1.13rem;
+  --font-size-45xl: 4rem;
+  --font-size-171xl: 11.88rem;
+  --font-size-13xl: 2rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-21xl: 2.5rem;
+  --font-size-9xl: 1.75rem;
+  --font-size-29xl: 3rem;
+
+  /* Colors */
+  --bg-color: #f7f2ec;
+  --toku-bg: rgba(247, 242, 236, 0.95);
+  --stroke-g: #605f5e;
+  --color-dimgray-100: #545454;
+  --color: #f4b19f;
+  --new-line-color: #eaa294;
+  --color-black: #000;
+  --new-dailogue: #e06853;
+  --color-darkgray-100: #a1a1a1;
+  --color-darkgray-200: #9c9c9b;
+  --color-antiquewhite-100: #eadbc8;
+  --color-mistyrose: #f4e2da;
+  --logo-color: #ff4448;
+  --color-white: #fff;
+  --color-midnightblue-100: #020231;
+  --logo-color2: #3f4066;
+  --color-darkslateblue-100: #2c2d54;
+  --color-tan-100: #dcc3a4;
+  --color-tan-200: #c09c7c;
+  --color-brown: #8b1a1a;
+
+  /* Gaps */
+  --gap-xs: 0.75rem;
+
+  /* Paddings */
+  --padding-xl: 1.25rem;
+  --padding-28xl: 2.94rem;
+  --padding-6xl: 1.56rem;
+}

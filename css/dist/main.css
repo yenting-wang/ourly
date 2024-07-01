@@ -1,0 +1,44 @@
+* {
+  width: 100dvw;
+  overflow-x: hidden;
+}
+
+#kv {
+  height: 100dvh;
+  border: 5px solid aqua;
+}
+
+.kv-video {
+  top: -0.19rem;
+  right: -3.25rem;
+  width: 89rem;
+  height: 50.06rem;
+}
+
+.kv {
+  top: -10.69rem;
+  left: 2.31rem;
+  border-radius: 0 50% 50%;
+  background-color: var(--bg-color);
+  width: 43rem;
+  height: 74.56rem;
+}
+
+.ourly-logo-icon1 {
+  position: absolute;
+  top: 6.75rem;
+  left: 105.06rem;
+  width: 9.38rem;
+  height: 1.88rem;
+  object-fit: cover;
+}
+
+#concerns {
+  height: 100dvh;
+  background-color: green;
+}
+
+#about {
+  height: 100dvh;
+  background-color: #00ff15;
+}

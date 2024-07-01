@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../ourly_1217"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5504
+	}
+}

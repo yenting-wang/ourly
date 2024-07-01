@@ -1,0 +1,229 @@
+#footer {
+    position: relative;
+    height: 760px;
+    width: 1440px;
+    // border: 1px solid red;
+}
+[class^="dialogue-footer-change"] {
+    opacity: 0;
+  }
+// title, subtitle, CTA, logo
+
+.kv-left-fo{
+    padding-left: 10rem;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 10%;
+    left: -3%;
+    position: relative;
+    background-color: transparent;
+    height: 100%;
+    overflow: hidden;
+}
+.kv-left-all-fo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+    // position: absolute;
+    top: 13.5rem;
+    left: 5.5rem;
+    width: 35.94rem;
+    height: 27.13rem;
+    z-index: 6;
+}
+.b27-fo {
+    position: absolute;
+    top: 40%;
+    left: 7.5%;
+    font-size: 3rem;
+    font-family: Noto Sans JP;
+    line-height: 120%;
+    background-color: transparent;
+}
+.p2-fo {
+    margin-block-start: 0;
+    margin-block-end: 8px;
+    background-color: transparent;
+}
+.span-fo {
+    color: var(--stroke-g);
+    background-color: transparent;
+}
+.span1-fo {
+    color: var(--new-dailogue);
+    background-color: transparent;
+}
+.span1-fo::after {
+    content: "";
+    position: absolute;
+    width: 380px;
+    height: 200px;
+    background-image: url(../public/10@2x.png);
+    background-repeat: no-repeat;
+    top: -66%;
+    left: 39.5%;
+    z-index: -1;
+}
+.span22-fo {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1rem;
+    left: 0;
+} 
+
+.ourly-web1-fo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    top: 10rem;
+    left: -3.15rem;
+    background-color: transparent;
+    color: var(--stroke-g);
+    line-height: 1.7rem;
+}
+.cta4-fo {
+    position: relative;
+    width: 11rem;
+    height: 3.75rem;
+    top: 12rem;
+    left: -3.15rem;
+    background-color: var(--logo-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-28xl);
+    cursor: pointer;
+    color: var(--color-white);
+    font-family: var(--font-inter);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.cta4-fo:hover {
+    background-color: #3F4066;
+    top: 12.2rem;
+    left: -2.85rem;
+    transition: all 0.3s ease;
+}
+
+.b11-fo {
+    background-color: transparent;
+}
+.cta3-fo {
+    position: relative;
+    top: -1.55rem;
+    left: -2.9rem;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.59);
+    border: 1px solid var(--logo-color);
+    box-sizing: border-box;
+    width: 11rem;
+    height: 3.75rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ourly-logo-icon1-fo {
+    position: absolute;
+    top: 30%;
+    right: 4%;
+    width: 9.38rem;
+    height: 1.88rem;
+    object-fit: cover;
+    background-color: transparent;
+    z-index: 1;
+}
+
+// ---------------------------------
+
+.gradation-title-fo {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: -25%;
+}
+
+.title-bg-fo {
+    position: absolute;
+    width: 95%;
+    height: auto;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.person-fo {
+    position: absolute;
+    bottom: -4%;
+    right: 19%;
+    width: 30%;
+}
+
+.dialogue-1-fo, .dialogue-2-fo, .dialogue-3-fo, .dialogue-4-fo, .dialogue-5-fo {
+    position: absolute;
+    background-color: transparent;
+}
+  
+  .dialogue-1-fo {
+    width: 7%;
+    left: 42%;
+    bottom: 13%;
+}
+  
+  .dialogue-2-fo {
+    width: 6.5%;
+    left: 49%;
+    bottom: 35%;
+}
+  
+  .dialogue-3-fo {
+    width: 8%;
+    left: 60%;
+    bottom: 32%;
+}
+  
+  .dialogue-4-fo {
+    width: 7%;
+    left: 72%;
+    bottom: 37%;
+}
+  
+  .dialogue-5-fo {
+    width: 7%;
+    left: 80%;
+    bottom: 21%;
+}
+
+.to-the-top {
+    width: 9%;
+    position: absolute;
+    right: 0%;
+    bottom: -10%;
+    cursor: pointer;
+}
+.to-the-top {
+    transition: transform 0.3s;
+  }
+  
+  .to-the-top:hover {
+    transform: scale(1.2);
+  }
+
+.bg-down-fo {
+    position: absolute;
+    bottom: -10%;
+    overflow: hidden;
+    width: 40%;
+    left: 10%;
+}
+
+.smartphone-disappear {
+    background-color: transparent;
+}

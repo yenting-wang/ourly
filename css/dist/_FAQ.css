@@ -1,0 +1,246 @@
+#FAQ {
+  background-color: #3f4066;
+  position: relative;
+  height: 100dvh;
+  border: 5px solid green;
+}
+
+.div9 {
+  position: absolute;
+  top: 689.06rem;
+  left: calc(50% - 109px);
+  width: 13.56rem;
+  height: 3.38rem;
+  font-size: var(--font-size-17xl);
+  color: var(--bg-color);
+}
+
+.b15 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.div65 {
+  position: absolute;
+  top: 692.63rem;
+  left: 53.13rem;
+  border-top: 2px dashed var(--bg-color);
+  box-sizing: border-box;
+  width: 13.69rem;
+  height: 0.13rem;
+}
+
+.qa1 {
+  position: absolute;
+  top: 675.75rem;
+  left: calc(50% - 1199px);
+  border-radius: 50%;
+  background-color: var(--logo-color2);
+  width: 149.81rem;
+  height: 41.06rem;
+}
+
+.qa {
+  position: absolute;
+  top: 761.88rem;
+  left: calc(50% - 1199px);
+  border-radius: 50%;
+  background-color: var(--logo-color2);
+  width: 149.81rem;
+  height: 41.06rem;
+}
+
+.component-1 {
+  position: absolute;
+  top: 18.94rem;
+  left: 28.88rem;
+  width: 90rem;
+  height: 10.44rem;
+}
+
+.qa2 {
+  position: absolute;
+  height: 70.06%;
+  width: 69.38%;
+  top: 0;
+  right: 30.63%;
+  bottom: 29.94%;
+  left: 0;
+  font-size: var(--font-size-5xl);
+}
+
+.q-bar {
+  position: absolute;
+  height: 52.14%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 47.86%;
+  left: 0;
+  background-color: var(--bg-color);
+}
+
+.q {
+  position: absolute;
+  width: 1.32%;
+  top: 10.26%;
+  left: 1.6%;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.a {
+  position: absolute;
+  width: 1.25%;
+  top: 70.94%;
+  left: 1.6%;
+  font-size: var(--font-size-9xl);
+  line-height: 120%;
+  display: inline-block;
+  color: var(--color-white);
+}
+
+.ourly6 {
+  position: absolute;
+  top: 8.38%;
+  left: 4.44%;
+  line-height: 120%;
+}
+
+.div2 {
+  position: absolute;
+  top: 46.11%;
+  left: 4.44%;
+  line-height: 189%;
+  color: var(--color-white);
+}
+
+.component-2 {
+  position: absolute;
+  top: 30.56rem;
+  left: 28.88rem;
+  width: 90rem;
+  height: 10.44rem;
+}
+
+.component-3 {
+  position: absolute;
+  top: 42.19rem;
+  left: 28.88rem;
+  width: 90rem;
+  height: 10.44rem;
+}
+
+.component-4 {
+  position: absolute;
+  top: 53.81rem;
+  left: 28.88rem;
+  width: 90rem;
+  height: 10.44rem;
+}
+
+.component-5 {
+  position: absolute;
+  top: 65.44rem;
+  left: 28.88rem;
+  width: 90rem;
+  height: 10.44rem;
+}
+
+.component-6 {
+  position: absolute;
+  top: 77.06rem;
+  left: 28.88rem;
+  width: 90rem;
+  height: 10.44rem;
+}
+
+.component-7 {
+  position: absolute;
+  top: 88.69rem;
+  left: 28.88rem;
+  width: 90rem;
+  height: 10.44rem;
+}
+
+.cta2 {
+  position: absolute;
+  top: 104.06rem;
+  left: 48.56rem;
+  width: 24.06rem;
+  height: 4.13rem;
+  cursor: pointer;
+  color: var(--color-white);
+}
+
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24.06rem;
+  height: 4.13rem;
+}
+
+.group-child,
+.group-item {
+  position: absolute;
+  background-color: var(--color-darkslateblue-100);
+  border: 1px solid var(--bg-color);
+  box-sizing: border-box;
+}
+
+.group-child {
+  top: 0.06rem;
+  left: 0;
+  width: 24.13rem;
+  height: 4.13rem;
+}
+
+.group-item {
+  top: -0.06rem;
+  left: -0.06rem;
+  width: 23.81rem;
+  height: 3.81rem;
+}
+
+.b14 {
+  position: absolute;
+  top: 0.94rem;
+  left: 3.19rem;
+  line-height: 120%;
+}
+
+.faq {
+  position: absolute;
+  top: 682.06rem;
+  left: calc(50% - 170px);
+  width: 24.56rem;
+  height: 14.94rem;
+  font-size: var(--font-size-181xl);
+  color: var(--color-midnightblue-100);
+}
+
+.fa {
+  position: absolute;
+  line-height: 120%;
+  opacity: 0.1;
+  top: 0;
+  left: calc(50% - 196.5px);
+  display: inline-block;
+  width: 24.56rem;
+  height: 14.94rem;
+}
+
+.q7 {
+  position: absolute;
+  line-height: 120%;
+  opacity: 0.1;
+  top: 0.44rem;
+  left: 14.44rem;
+  font-size: 10.31rem;
+}

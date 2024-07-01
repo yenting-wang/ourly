@@ -1,0 +1,155 @@
+#about {
+  position: relative;
+  height: 100dvh;
+  // border: 5px solid red;
+  transition: all 0.5s ease;
+  [class^="circle-"] {
+    cursor: pointer;
+  }
+  [class^="circle-"]:hover {
+    transition: all 0.5s ease;
+    scale: 1.5;
+  }
+}
+.onceanime {
+  animation: toBig 1s ease;
+}
+
+// @keyframes toBig {
+//   from {
+//     scale: 1;
+//   }
+//   to {
+//     scale: 1.1;
+//   }
+// }
+
+@keyframes toBig {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.title-a-bg {
+  width: 51%;
+  padding-left: 5%;
+  position: absolute;
+  top: 26%;
+  left: 0;
+  background-color: transparent;
+}
+
+.title-a {
+  color: #E06853;
+  line-height: 1.5;
+  position: relative;
+  left: 7%;
+  width: 50%;
+  top: 39%;
+}
+
+.text-a {
+  color: #605F5E;
+  position: absolute;
+  top: 51%;
+  left: 7%;
+  line-height: 250%;
+}
+
+.person-a {
+  position: absolute;
+  width: 7%;
+  top: 75%;
+  right: 25%;
+}
+
+.click-a {
+  position: absolute;
+  width: 7%;
+  top: 70%;
+  right: 25%;
+}
+
+.circle-1-a {
+  position: absolute;
+  width: 11%;
+  top: 45%;
+  right: 23%;
+}
+
+.circle-2-a {
+  position: absolute;
+  width: 11%;
+  right: 10%;
+  top: 58%;
+}
+
+.circle-3-a {
+  position: absolute;
+  width: 11%;
+  right: 10%;
+  top: 85%;
+  z-index: 1;
+}
+
+.circle-4-a {
+  position: absolute;
+  width: 11%;
+  top: 97%;
+  right: 23%;
+  z-index: 2;
+}
+
+.circle-5-a {
+  position: absolute;
+  width: 11%;
+  right: 36%;
+  top: 85%;
+  z-index: 1;
+}
+
+.circle-6-a {
+  position: absolute;
+  width: 11%;
+  right: 36%;
+  top: 58%;
+  z-index: 1;
+}
+
+.string-a {
+  pointer-events: none;
+  position: absolute;
+  width: 50%;
+  right: 0%;
+  top: 110%;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.gradient-right-a {
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+  top: -15%;
+  right: 0%;
+  background-color: transparent;
+  width: 30%;
+}
+
+.string-a-cover {
+  // background-color: red;
+  background-color: #f7f2ec;
+  position: absolute;
+  width: 100%;
+  height: 31%;
+  z-index: 1;
+  top: 110%;
+  right: 0%;
+  transform-origin: left center;
+}

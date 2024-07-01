@@ -1,0 +1,162 @@
+#switch {
+  position: relative;
+  // height: 1050px;
+  height: 1000px;
+  width: 1440px;
+  // height: 100dvh;
+  // border: 5px solid red;
+  // .mask {
+  //     position: absolute;
+  //     top: 0;
+  //     left: 0;
+  //     width: 100%;
+  //     height: 100%;
+  //     z-index: 998;
+  //     transition: all 0.5s;
+  //     overflow: hidden;
+  // }
+}
+[class^="switch-change"] {
+  opacity: 0;
+}
+// string left
+.string-left-s {
+  position: absolute;
+  height: 13%;
+  width: 38%;
+  top: 63.41%;
+  right: 58.7%;
+  bottom: 9.53%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.string-right-s {
+  position: absolute;
+  height: 28%;
+  width: 38%;
+  top: 48.24%;
+  bottom: 32.56%;
+  left: 62%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+
+.gradation-s {
+  position: absolute;
+  top: -20%;
+  width: 100%;
+}
+
+.title-bg-s {
+  left: 47%;
+  transform: translate(-50%);
+  width: 100%;
+  padding-left: 5%;
+  position: absolute;
+  top: 4%;
+  background-color: transparent;
+}
+
+.woman-img-1,
+.man-img-1,
+.man-img-2,
+.man-img-3 {
+  width: 23%;
+}
+
+.woman-talk-1,
+.man-talk-1,
+.man-talk-2,
+.man-talk-3 {
+  width: 20%;
+}
+
+.woman-img-1 {
+  position: absolute;
+  right: 2%;
+  top: 280px;
+}
+
+.woman-talk-1 {
+  position: absolute;
+  right: 20%;
+  top: 340px;
+}
+
+.man-img-1 {
+  position: absolute;
+  left: 2%;
+  top: 300px;
+}
+
+.man-talk-1 {
+  width: 17%;
+  position: absolute;
+  left: 18.5%;
+  top: 350px;
+}
+
+.man-img-2 {
+  position: absolute;
+  right: 5%;
+  top: 700px;
+}
+
+.man-talk-2 {
+  position: absolute;
+  right: 23.5%;
+  top: 750px;
+}
+
+.man-img-3 {
+  position: absolute;
+  top: 715px;
+  left: 12%;
+}
+
+.man-talk-3 {
+  width: 17%;
+  position: absolute;
+  top: 765px;
+  left: 28.5%;
+}
+
+.title-s {
+  position: absolute;
+  top: 63%;
+  left: 39%;
+  width: 20%;
+  background-color: transparent;
+  z-index: 1;
+}
+
+// .item {
+//   filter: grayscale(100%);
+//   opacity: 1;
+//   transition: all 2s;
+// }
+
+// .in-view {
+//   filter: grayscale(0%);
+//   opacity: 1;
+// }
+
+.string-right-s-cover {
+  // background-color: red;
+  background-color: #f7f2ec;
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  z-index: 1;
+  top: 60%;
+  right: 0%;
+  transform-origin: left center;
+}
+
+.title-s {
+  filter: none;
+}

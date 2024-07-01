@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../ourly_1212(karl)"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5503,
+		"liveServer.settings.multiRootWorkspaceName": "ourly_1212(karl)"
+	}
+}

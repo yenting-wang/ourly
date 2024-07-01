@@ -1,0 +1,129 @@
+#example1 {
+    position: relative;
+    height: 100dvh;
+//     border: 5px solid blue;
+}
+[class^="dialogue-change1"] {
+    opacity: 0;
+  }
+// 導入事例1 string
+.string-exp1 {
+    position: absolute;
+    top: 76.5%;
+    left: 0;
+    width: 100%;
+    height: 35.31rem;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.display-exp1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    padding-top: 19%;
+
+    
+    img {
+        width: 40%;
+        background-color: transparent;
+    }
+}
+
+.dialogue-exp1 {
+    background-color: transparent;
+}
+
+.dialogue-1-exp1 {
+    position: absolute;
+    left: 16%;
+    top: 18%;
+}
+
+.dialogue-2-exp1 {
+    position: absolute;
+    left: 21%;
+    top: 44%;
+    width: 12%;
+}
+
+.dialogue-3-exp1 {
+    position: absolute;
+    left: 35%;
+    top: 24%;
+    width: 10%;
+}
+
+.exp-1-more {
+    position: absolute;
+    width: 7.5%;
+    right: 12%;
+    z-index: 1;
+    top: 80%;
+}
+
+  
+  .exp-1-more {
+    transition: transform 0.3s;
+  }
+  
+  .exp-1-more:hover {
+    transform: scale(1.2);
+  }
+
+
+.text-area1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    .exp-1-text {
+        position: relative;
+        top: -30px;
+        width: 45%;
+        left: -9.5%;
+    }
+    h2 {
+        top: 40%;
+        left: auto;
+        letter-spacing: 2px;
+        line-height: 35px;
+    }
+    .h2-h {
+        left: 57%;
+    }
+    .h2-h2 {
+        left: 58%;
+        top: 45%;
+    }
+    p {
+        position: relative;
+        top: 120px;
+        left: -9%;
+        font-weight: lighter;
+        // letter-spacing: 1.1px;
+        line-height: 25px;
+        color: #605F5E;
+        .exp-colorchange {
+        // color: #E06853;
+        color: #FF4448;
+        }
+    }
+    .p-p {
+        padding-top: 20px;
+    }
+
+}
+
+.string-exp1-cover {
+    // background-color: red;
+    background-color: #f7f2ec;
+    position: absolute;
+    width: 100%;
+    height: 37.5%;
+    z-index: 1;
+    top: 95%;
+    right: 0%;
+    transform-origin: right center;
+  }

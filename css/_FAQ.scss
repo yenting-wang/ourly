@@ -1,0 +1,187 @@
+#FAQ {
+    background-color: #3f4066;
+    position: relative;
+    width: 1440px;
+    height: 1680px;
+}
+
+.remain-up-Q {
+    width: 100%;
+    height: 10%;
+    background-color: var(#f7f2ec);
+}
+
+.curve-up-Q {
+    position: relative;
+    top: -10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
+}
+
+.title-Q {
+    top: 7%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 20%;
+    background-color: transparent;
+}
+
+.title-h2-FAQ {
+    top: -27.3%;
+    left: 43.2%;
+    position: relative;
+    color: #F7F2EC;
+    width: 50%;
+    background-color: transparent;
+}
+
+.QA-all {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
+    left: 64.8%;
+    top: -19%;
+    transform: translate(-50%);
+}
+
+// .QA-1, .QA-2, .QA-3, .QA-4, .QA-5, .QA-6, .QA-7 {
+//     width: 110%;
+//     height: fit-content;
+// }
+
+
+
+// .cta-Q {
+//     position: absolute;
+//     left: 13%;
+//     bottom: 23%;
+//     top: 107%;
+//     width: 30%;
+//     background-size: cover;
+//     background-position: center;
+//     transition: opacity 0.3s ease, background-image 0.3s ease; /* 添加过渡效果 */
+// }
+
+// .cta-Q:hover {
+//     opacity: 0; /* 在:hover状态下，隐藏原始图像 */
+//     background-image: url(../public/FAQ-hover.png); /* 将 "FAQ-hover.png" 替换为实际的文件路径 */
+// }
+
+.cta-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cta-Q,
+  .cta-Q-hover {
+    position: absolute;
+    top: 70px;
+    left: 13%;
+    width: 30%;
+    object-fit: cover;
+    // transition: opacity 0.3s ease; /* 添加过渡效果 */
+  }
+  
+  .cta-Q-hover {
+    opacity: 0; /* 在:hover状态下，隐藏原始图像 */
+  }
+  
+  .cta-container:hover .cta-Q {
+    opacity: 0;
+  }
+  
+  .cta-container:hover .cta-Q-hover {
+    opacity: 1;
+  }
+
+.cta-Q-hover {
+    position: absolute;
+    top: 74px;
+    width: 29.5%;
+    height: auto;
+    left: 13.5%;
+}
+  
+
+
+
+.curve-down-Q {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.remain-down-Q {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    // border: 5px solid red;
+}    
+
+
+// PC version
+
+.title-phone-FAQ, .title-phone-string-FAQ {
+    display: none !important;
+}
+
+  .title-Q {
+    display: block !important;
+}
+
+.q, .a {
+    position: relative;
+    left: 6%;
+    top: -114px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.q {
+    color: #605F5E;
+    background-color: #f7f2ec;
+    padding: 1% 5%;
+    padding-left: 2%;
+    left: -11%;
+    top: 10%;
+    margin-bottom: 7%;
+    width: 80%;
+}
+
+.a {
+    color: #FFFFFF;
+    top: -45px;
+    line-height: 2;
+    left: -9%;
+    margin-bottom: 1%;
+    b {
+        background-color: transparent;
+    }
+}
+
+.q:first-letter {
+    margin-right: 20px; /* 設定第一個字的右側空格為 10px */
+}
+
+.a:first-letter {
+    margin-right: 20px; /* 設定第一個字的右側空格為 10px */
+}
+
+.indent {
+    position: absolute;
+    text-indent: 33px;
+    background-color: transparent;
+}
+

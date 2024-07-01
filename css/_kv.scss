@@ -1,0 +1,297 @@
+
+#kv {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100dvh;
+  // border:5px solid aqua;
+  display: flex;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.kv-left{
+  padding-left: 10rem;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: -20%;
+  left: -5%;
+  position: relative;
+  background-color: #f7f2ec;
+  z-index: 2;
+  border-radius: 0 50% 50% 0;
+  height: 120%;
+  overflow: hidden;
+}
+.kv-right{
+  flex: 1 1 600px;
+  width: 100%;
+  // overflow: hidden;
+  position: relative;
+  z-index: 0;
+
+  video{
+    right: 0;
+    width: 130%;
+    height: auto;
+  }
+}
+
+.kv-right video {
+  position: relative;
+  right: 20%;
+  width: 130%;
+  height: auto;
+}
+
+.kv1{
+  position: absolute;
+  background-color: transparent;
+  top: 39%;
+  right: 0;
+  width: 45%;
+  height: auto;
+}
+
+
+.ourly-logo-icon1 {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  width: 9rem;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background-color: transparent;
+  z-index: 10000;
+}
+.kv-left-all {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background: transparent;
+  // position: absolute;
+  top: 13.5rem;
+  left: 5.5rem;
+  width: 35.94rem;
+  height: 27.13rem;
+  z-index: 6;
+}
+.b27 {
+  position: absolute;
+  top: 40%;
+  left: 19%;
+  font-size: 3rem;
+  font-family: Noto Sans JP;
+  line-height: 120%;
+  background-color: transparent;
+}
+.span {
+  color: var(--stroke-g);
+  background-color: transparent;
+}
+.span1 {
+  color: var(--new-dailogue);
+  background-color: transparent;
+}
+
+.span1::after {
+  content: "";
+  position: absolute;
+  width: 380px;
+  height: 200px;
+  background-image: url(../public/10@2x.png);
+  background-repeat: no-repeat;
+  top: -66%;
+  left: 39.5%;
+  z-index: -1;
+}
+
+.p2 {
+  margin-block-start: 0;
+  margin-block-end: 8px;
+  background-color: transparent;
+}
+
+.ourly-web1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  top: 9.5rem;
+  left: -3.15rem;
+  background-color: transparent;
+  color: var(--stroke-g);
+  line-height: 1.7rem;
+}
+
+.b11 {
+  background-color: transparent;
+}
+.cta4 {
+  position: relative;
+  width: 11rem;
+  height: 3.75rem;
+  top: 12rem;
+  left: -3.15rem;
+  background-color: var(--logo-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-28xl);
+  cursor: pointer;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.cta4:hover {
+  background-color: #3F4066;
+  top: 12.2rem;
+  left: -2.85rem;
+  transition: all 0.3s ease;
+}
+
+
+.cta3 {
+  position: relative;
+  top: -1.55rem;
+  left: -2.9rem;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.59);
+  border: 1px solid var(--logo-color);
+  box-sizing: border-box;
+  width: 11rem;
+  height: 3.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.span22 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 1rem;
+  left: 0;
+} 
+
+
+@keyframes scroll {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
+
+@keyframes scroll2 {
+  from { transform: translateX(0%); }
+  to { transform: translateX(-200%); }
+}
+
+.logo-wall-1 {
+  position: absolute;
+  width: 300%;
+  background-color: transparent;
+  bottom: 3%;
+  z-index: 10;
+  display: flex;
+  overflow: hidden;
+
+  .logo-wrapper {
+    width: 100%;
+
+    .logo {
+      width: 100%;
+      margin: 0 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+    }
+  }
+
+  .first {
+    background-color: transparent;
+    animation: scroll 150s linear infinite; // 總時長減半
+  }
+
+  .second {
+    background-color: transparent;
+    animation: scroll2 150s linear infinite; // 總時長減半
+    animation-delay: -77S; // 調整延遲以匹配第一個動畫的總時長
+  }
+}
+
+.logo-wall-1 .logo-wrapper .logo {
+  margin: 0px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+//--------------------------
+
+@keyframes scroll {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
+
+@keyframes scroll2 {
+  from { transform: translateX(0%); }
+  to { transform: translateX(-200%); }
+}
+
+.logo-wall-2 {
+  position: absolute;
+  width: 300%;
+  background-color: transparent;
+  bottom: 11%;
+  z-index: 10;
+  display: flex;
+  overflow: hidden;
+
+  .logo-wrapper-2 {
+    width: 100%;
+
+    .logo-2 {
+      width: 100%;
+      margin: 0 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+    }
+  }
+
+  .first-2 {
+    background-color: transparent;
+    animation: scroll 150s linear infinite; // 總時長減半
+  }
+
+  .second-2 {
+    background-color: transparent;
+    animation: scroll2 150s linear infinite; // 總時長減半
+    animation-delay: -77S; // 調整延遲以匹配第一個動畫的總時長
+  }
+}
+
+.logo-wall-2 .logo-wrapper-2 .logo-2 {
+  margin: 0px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.smartphone-video {
+  display: none !important;
+}
+
+.smartphone-video video {
+  display: none !important;
+}

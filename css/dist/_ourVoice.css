@@ -1,0 +1,277 @@
+#ourVoice {
+  position: relative;
+  height: 100dvh;
+  border: 5px solid blue;
+}
+
+.our-voice {
+  position: absolute;
+  display: inline-block;
+  top: 7.44rem;
+  left: calc(50% - 464px);
+  line-height: 120%;
+  color: #f5e6df;
+  width: 58rem;
+  height: 14.75rem;
+}
+
+.b25 {
+  position: absolute;
+  display: inline-block;
+  top: 15.31rem;
+  left: calc(50% - 288px);
+  font-size: var(--font-size-17xl);
+  text-align: center;
+  width: 35.94rem;
+}
+
+.our-voice1 {
+  position: absolute;
+  top: 29.06rem;
+  left: 14.75rem;
+  background-color: var(--color-antiquewhite-100);
+  filter: blur(50px);
+  width: 41.69rem;
+  height: 28.44rem;
+}
+
+.frame-p3-child {
+  position: absolute;
+  top: 42.5rem;
+  left: 68.5rem;
+  background-color: var(--color-antiquewhite-100);
+  filter: blur(50px);
+  width: 42.25rem;
+  height: 29.5rem;
+}
+
+.div39 {
+  position: absolute;
+  top: 40.06rem;
+  right: 13.44rem;
+  width: 39.94rem;
+  height: 33.44rem;
+  text-align: center;
+  font-size: var(--font-size-base);
+}
+
+.icon18 {
+  position: absolute;
+  top: 8.56rem;
+  right: 1.63rem;
+  width: 38.31rem;
+  height: 24.88rem;
+  object-fit: cover;
+}
+
+.div40 {
+  position: absolute;
+  top: 0.69rem;
+  right: 0;
+  width: 5.06rem;
+  height: 21.69rem;
+}
+
+.inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--bg-color);
+  border: 2px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  width: 5.06rem;
+  height: 21.69rem;
+}
+
+.parent4 {
+  position: absolute;
+  right: 0.56rem;
+  top: 4.94rem;
+  width: 3.94rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.div41 {
+  position: relative;
+  display: inline-block;
+  width: 1.31rem;
+  height: 11.19rem;
+  flex-shrink: 0;
+}
+
+.span10 {
+  letter-spacing: -0.03em;
+}
+
+.div42 {
+  position: relative;
+  display: inline-block;
+  width: 1.31rem;
+  height: 16rem;
+  flex-shrink: 0;
+}
+
+.div44 {
+  position: absolute;
+  right: 0.56rem;
+  top: 0.63rem;
+  display: inline-block;
+  width: 1.31rem;
+  height: 4.31rem;
+}
+
+.div45 {
+  position: absolute;
+  top: 0;
+  right: 33rem;
+  width: 5.06rem;
+  height: 24.44rem;
+}
+
+.child1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--bg-color);
+  border: 2px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  width: 5.06rem;
+  height: 24.44rem;
+}
+
+.div46 {
+  position: absolute;
+  top: 0.69rem;
+  right: 0.38rem;
+  display: inline-block;
+  width: 1.63rem;
+  height: 4.25rem;
+}
+
+.parent5 {
+  position: absolute;
+  top: 5rem;
+  right: 0.56rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.div47 {
+  position: relative;
+  display: inline-block;
+  width: 1.31rem;
+  height: 18.5rem;
+  flex-shrink: 0;
+}
+
+.div48 {
+  position: relative;
+  display: inline-block;
+  width: 1.31rem;
+  height: 8.31rem;
+  flex-shrink: 0;
+}
+
+.div49 {
+  position: relative;
+  display: inline-block;
+  width: 1.31rem;
+  height: 12.63rem;
+  flex-shrink: 0;
+}
+
+.icon19 {
+  position: absolute;
+  top: 67.25rem;
+  left: 86.63rem;
+  width: 18.31rem;
+  height: 12.94rem;
+  object-fit: cover;
+}
+
+.icon20 {
+  position: absolute;
+  top: 5.25rem;
+  left: calc(50% - 308.5px);
+  width: 38.56rem;
+  height: 25.13rem;
+  object-fit: cover;
+}
+
+.child2 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 204.5px);
+  background-color: var(--bg-color);
+  border: 2px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  width: 5.06rem;
+  height: 23.31rem;
+}
+
+.div51 {
+  position: absolute;
+  top: 0.81rem;
+  left: calc(50% - 153.5px);
+  display: inline-block;
+  width: 1.38rem;
+  height: 4.13rem;
+}
+
+.parent6 {
+  position: absolute;
+  top: 5.13rem;
+  left: calc(50% - 195.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.div52 {
+  position: relative;
+  display: inline-block;
+  width: 1.31rem;
+  height: 8.81rem;
+  flex-shrink: 0;
+}
+
+.div53 {
+  position: relative;
+  display: inline-block;
+  width: 1.31rem;
+  height: 16.13rem;
+  flex-shrink: 0;
+}
+
+.div54 {
+  position: relative;
+  display: inline-block;
+  width: 1.31rem;
+  height: 17.56rem;
+  flex-shrink: 0;
+}
+
+.icon21 {
+  position: absolute;
+  top: 53.38rem;
+  left: 12.38rem;
+  width: 16.06rem;
+  height: 11.35rem;
+  object-fit: cover;
+}
+
+.our-voice2 {
+  position: absolute;
+  top: 18.88rem;
+  left: 41.94rem;
+  border-top: 2px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 34.44rem;
+  height: 0.13rem;
+}
